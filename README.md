@@ -26,6 +26,7 @@ Data cleaning:
 - removal of non relevant data (patients ID in the current study)
 - numerization of non-numerical data
 - (optional) removal of highly correlated data features.
+
 There were no missing feature values for the current study.
 
 <img src="https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164" width="49.5%"> <img src="https://github.com/user-attachments/assets/48418179-3325-40a4-9ce7-10e2f65ea554" width="49.5%">

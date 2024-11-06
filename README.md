@@ -33,7 +33,7 @@ There were no missing feature values for the current study.
 Data split:
 - Prepared data was then split into 3 datasets: training, validation and test.
 
-Usage: &emsp;	./split.py `<data.csv>` [column_number_to_remove...]
+Usage: &emsp;	`./split.py <data.csv> [column_number_to_remove...]`
 
 
 
@@ -51,4 +51,6 @@ Datasets were normalized using min-max (or standard) normalization based on the 
 <br />
 Test data was normalized using the same normalization function coefficients previously applied on training and validation datasets.
 <br /><br />
-Usage: &emsp;	./prediction.py `<nn_model.pkl>`
+Usage: &emsp;	`./prediction.py <nn_model.pkl>`
+
+

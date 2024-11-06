@@ -1,7 +1,7 @@
 # multilayer_perceptron
 Implementation from scratch of a customizable multilayer perceptron
 
-<img src="https://github.com/user-attachments/assets/fef334da-4ab0-4ff3-8cac-82021430f463" width="800">
+<img src="https://github.com/user-attachments/assets/fef334da-4ab0-4ff3-8cac-82021430f463" width="900">
 <br /><br />
 
 This is a work based on the first 2 courses of the deep learning specialization by Andrew Ng.<br>
@@ -23,7 +23,7 @@ This project is divided into 3 parts:<br>
 <br />
 
 Data cleaning:
-- removal of non relevant data (patient ID in the current study)
+- removal of non relevant data (patients ID in the current study)
 - numerization of non-numerical data
 - (optional) removal of highly correlated data features.
 There were no missing feature values for the current study.

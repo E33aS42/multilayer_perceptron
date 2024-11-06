@@ -8,12 +8,14 @@ This is a work based on the first 2 courses of the deep learning specialization 
 https://www.coursera.org/specializations/deep-learning#courses
 <br /><br />
 
-The case study presented here is based on a dataset of breast cancer diagnoses (malignant or benign). This is primarily a binary classification problem, though a multiclass implementation has also been done for generalization.
+The case study presented here is based on a dataset of breast cancer diagnoses (malignant or benign) derived from breast mass sampling, with 30 different features describing characteristics of the cell nuclei.<br>
 https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.names
+<br>
+This is primarily a binary classification problem, though a multiclass approach has also been implemented for generalization.<br>
 <br /><br />
 
-This project has been done in 3 parts:<br>
-1. Raw Data analysis and preparation.<br>
+This project is divided into 3 parts:<br>
+1. Raw data analysis.<br>
 2. Model training.<br>
 3. Prediction.<br>
 
@@ -23,7 +25,7 @@ This project has been done in 3 parts:<br>
 Data cleaning:
 - removal of non relevant data (patient ID in the current study)
 - numerization of non-numerical data
-- (optional)
+- (optional) removal of highly correlated input data columns.
 
 
 

@@ -2,6 +2,9 @@
 Implementation from scratch of a customizable multilayer perceptron
 
 <img src="https://github.com/user-attachments/assets/1d51224a-bfba-4c43-944e-ffe02a65607f" width="1000">
+
+<img src="https://github.com/user-attachments/assets/fef334da-4ab0-4ff3-8cac-82021430f463" width="1000">
+
 <br /><br />
 
 This is a work based on the first 2 courses of the deep learning specialization by Andrew Ng.<br>
@@ -30,7 +33,7 @@ Data cleaning:
 ![corr_orig](https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164)
 ![corr_rem](https://github.com/user-attachments/assets/25c1838b-450d-4be9-990f-ae3c640ee52f)
 
-<img src="https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164" width="50%"> <img src="[https://github.com/user-attachments/assets/160dcbb2-c4af-434c-826d-aec65b9ff567](https://github.com/user-attachments/assets/25c1838b-450d-4be9-990f-ae3c640ee52f)" width="50%">
+<img src="https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164" width="50%"> <img src="https://github.com/user-attachments/assets/25c1838b-450d-4be9-990f-ae3c640ee52f" width="50%">
 
 Prepared data was then split into 3 datasets: training, validation and test.
 

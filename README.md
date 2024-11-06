@@ -1,8 +1,7 @@
 # multilayer_perceptron
 Implementation from scratch of a customizable multilayer perceptron
 
-<img src="https://github.com/user-attachments/assets/fef334da-4ab0-4ff3-8cac-82021430f463" width="900">
-
+<img src="https://github.com/user-attachments/assets/fef334da-4ab0-4ff3-8cac-82021430f463" width="800">
 <br /><br />
 
 This is a work based on the first 2 courses of the deep learning specialization by Andrew Ng.<br>
@@ -29,9 +28,10 @@ Data cleaning:
 - (optional) removal of highly correlated input data columns.
 
 ![corr_orig](https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164)
-![corr_rem](https://github.com/user-attachments/assets/25c1838b-450d-4be9-990f-ae3c640ee52f)
+![corr_rem452425](https://github.com/user-attachments/assets/48418179-3325-40a4-9ce7-10e2f65ea554)
 
-<img src="https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164" width="49%"> <img src="https://github.com/user-attachments/assets/25c1838b-450d-4be9-990f-ae3c640ee52f" width="49%">
+
+<img src="https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164" width="49.5%"> <img src="https://github.com/user-attachments/assets/48418179-3325-40a4-9ce7-10e2f65ea554" width="49.5%">
 
 Prepared data was then split into 3 datasets: training, validation and test.
 

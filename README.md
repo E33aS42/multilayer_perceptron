@@ -26,19 +26,26 @@ Data cleaning:
 - removal of non relevant data (patient ID in the current study)
 - numerization of non-numerical data
 - (optional) removal of highly correlated data features.
+There were no missing feature values for the current study.
 
 <img src="https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164" width="49.5%"> <img src="https://github.com/user-attachments/assets/48418179-3325-40a4-9ce7-10e2f65ea554" width="49.5%">
 
 Data split:
 - Prepared data was then split into 3 datasets: training, validation and test.
 
+Usage:
+	./split.py \<data.csv\> [column_number...]
+
+optional
+
 ## Training (train.py)
 <br />
-After normalizing datasets using min-max (or standard) normalization based on the training data, the model was trained on the training set to evaluate its weights. These were consecutively validated using the validation dataset to avoid overfitting.
+Datasets were normalized using min-max (or standard) normalization based on the training data. The model was then trained on the training set to evaluate its weights. These were consecutively validated using the validation dataset to avoid overfitting.
 
 <br /><br />
 ![metrics](https://github.com/user-attachments/assets/e15522cd-c27c-4db7-baee-b8d4ff5372c8)
 <br /><br />
+
 
 
 ## Prediction (prediction.py)

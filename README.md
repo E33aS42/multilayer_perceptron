@@ -1,7 +1,7 @@
 # multilayer_perceptron
 Implementation from scratch of a customizable multilayer perceptron
 
-![topology](https://github.com/user-attachments/assets/1d51224a-bfba-4c43-944e-ffe02a65607f | width=100)
+![topology](https://github.com/user-attachments/assets/1d51224a-bfba-4c43-944e-ffe02a65607f=250x250)
 
 This is a work based on the first 2 courses of the deep learning specialization by Andrew Ng.
 

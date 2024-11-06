@@ -33,10 +33,10 @@ There were no missing feature values for the current study.
 Data split:
 - Prepared data was then split into 3 datasets: training, validation and test.
 
-Usage:
-	./split.py \<data.csv\> [column_number...]
+Usage:<br>
+\t	./split.py \<data.csv\> [column_number...]
 
-optional
+
 
 ## Training (train.py)
 <br />

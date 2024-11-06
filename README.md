@@ -50,5 +50,5 @@ Datasets were normalized using min-max (or standard) normalization based on the 
 ## Prediction (prediction.py)
 <br />
 Test data was normalized using the same normalization function coefficients previously applied on training and validation datasets.
-
+<br />
 Usage: &emsp;	./prediction.py \<nn_model.pkl\> 

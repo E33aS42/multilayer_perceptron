@@ -33,6 +33,10 @@ Prepared data was then split into 3 datasets: training, validation and test.
 <br />
 After normalization of the datasets based on min-max or standard normalization of the training dataset, model training was done on the training dataset to evaluate model weights which are consecutively validated using the validation dataset to avoid overfitting.
 
+<br /><br />
+![metrics](https://github.com/user-attachments/assets/e15522cd-c27c-4db7-baee-b8d4ff5372c8)
+<br /><br />
+
 
 ## Prediction (prediction.py)
 <br />

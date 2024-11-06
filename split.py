@@ -106,7 +106,7 @@ if __name__ == "__main__":
         df1 = df.drop(columns=val_drop)
         corr = df1.corr()
         sns.heatmap(corr, cmap="Blues", annot=True)
-        plt.title("Correlation heatmap after removing biggest correlated variables")
+        plt.title("Correlation heatmap after removal of highest correlated variables")
 
         data = df1.values
         save_csv(data, "data_nocorr")

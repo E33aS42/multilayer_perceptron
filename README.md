@@ -25,15 +25,16 @@ This project is divided into 3 parts:<br>
 Data cleaning:
 - removal of non relevant data (patient ID in the current study)
 - numerization of non-numerical data
-- (optional) removal of highly correlated input data columns.
+- (optional) removal of highly correlated data features.
 
 <img src="https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164" width="49.5%"> <img src="https://github.com/user-attachments/assets/48418179-3325-40a4-9ce7-10e2f65ea554" width="49.5%">
 
-Prepared data was then split into 3 datasets: training, validation and test.
+Data split:
+- Prepared data was then split into 3 datasets: training, validation and test.
 
 ## Training (train.py)
 <br />
-After normalization of the datasets based on min-max or standard normalization of the training dataset, model training was done on the training dataset to evaluate model weights which are consecutively validated using the validation dataset to avoid overfitting.
+After normalizing datasets using min-max (or standard) normalization based on the training data, the model was trained on the training set to evaluate its weights. These were consecutively validated using the validation dataset to avoid overfitting.
 
 <br /><br />
 ![metrics](https://github.com/user-attachments/assets/e15522cd-c27c-4db7-baee-b8d4ff5372c8)

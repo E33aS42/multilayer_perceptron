@@ -34,7 +34,7 @@ Data split:
 - Prepared data was then split into 3 datasets: training, validation and test.
 
 Usage:<br>
-\t	./split.py \<data.csv\> [column_number...]
+&emsp;	./split.py \<data.csv\> [column_number...]
 
 
 

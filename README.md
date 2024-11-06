@@ -15,6 +15,10 @@ https://www.coursera.org/specializations/deep-learning#courses
 ## Training
 <br />
 
+<br /><br />
+![metrics](https://github.com/user-attachments/assets/e15522cd-c27c-4db7-baee-b8d4ff5372c8)
+<br /><br />
+
 
 ## Prediction
 <br />

@@ -106,7 +106,7 @@ class Standard_Scaler():
 
     def de_zscore(self, x):
         """Denormalize a previously normalized non-empty numpy.ndarray\
-            using the min-max standardization.
+            using the zscore standardization.
         Args:
         x: has to be an numpy.ndarray, a vector.
         Returns:

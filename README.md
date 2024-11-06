@@ -6,3 +6,15 @@ Implementation from scratch of a customizable multilayer perceptron
 
 This is a work based on the first 2 courses of the deep learning specialization by Andrew Ng.<br>
 https://www.coursera.org/specializations/deep-learning#courses
+
+
+## Analyze and split data
+<br />
+
+
+## Training
+<br />
+
+
+## Prediction
+<br />

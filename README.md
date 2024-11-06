@@ -27,10 +27,6 @@ Data cleaning:
 - numerization of non-numerical data
 - (optional) removal of highly correlated input data columns.
 
-![corr_orig](https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164)
-![corr_rem452425](https://github.com/user-attachments/assets/48418179-3325-40a4-9ce7-10e2f65ea554)
-
-
 <img src="https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164" width="49.5%"> <img src="https://github.com/user-attachments/assets/48418179-3325-40a4-9ce7-10e2f65ea554" width="49.5%">
 
 Prepared data was then split into 3 datasets: training, validation and test.

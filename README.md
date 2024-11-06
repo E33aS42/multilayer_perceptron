@@ -28,10 +28,9 @@ Data cleaning:
 - (optional) removal of highly correlated input data columns.
 
 ![corr_orig](https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164)
+![corr_rem](https://github.com/user-attachments/assets/25c1838b-450d-4be9-990f-ae3c640ee52f)
 
-![corre_rem](https://github.com/user-attachments/assets/160dcbb2-c4af-434c-826d-aec65b9ff567)
-
-<img src="[image1.png](https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164)" width="50%" alt="image1"> <img src="[image2.png](https://github.com/user-attachments/assets/160dcbb2-c4af-434c-826d-aec65b9ff567)" width="50%" alt="image2">
+<img src="https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164" width="50%"> <img src="[https://github.com/user-attachments/assets/160dcbb2-c4af-434c-826d-aec65b9ff567](https://github.com/user-attachments/assets/25c1838b-450d-4be9-990f-ae3c640ee52f)" width="50%">
 
 Prepared data was then split into 3 datasets: training, validation and test.
 

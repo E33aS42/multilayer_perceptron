@@ -48,13 +48,16 @@ Datasets were normalized using min-max (or standard) normalization based on the 
 *Figure 3: Training and validation losses and accuracy for one run.*
 <br /><br />
 
-Training phase is customizable to explore the effects of model parameters on training.
+Training phase is customizable to explore the effects of model parameters on training:
 - hidden layer available activation functions: sigmoid, tanh, relu or leaky relu.
 - output layer available activation functions: sigmoid or softmax.
 - weights initializations: random or Xavier.
 - optimization algorithms: momentum, RMSprop or Adam.
 - early stopping with configurable patience.
 - multiple runs can be done consecutively.
+
+
+####Multiple runs examples:
 
 <img src="https://github.com/user-attachments/assets/5bdb7d4d-efcc-4c3e-9608-8a3e1aa18b21" width="75%"><br>
 *Figure 4: Multiple runs validation losses for different learning rates and network topology.*

@@ -56,14 +56,14 @@ Training phase is customizable to explore the effects of model parameters on tra
 - early stopping with configurable patience.
 - multiple runs can be done consecutively.
 
-<img src="https://github.com/user-attachments/assets/275f35df-2b6e-43f7-b1c8-84b4fad8f959" width="75%">
-<p align="center">*_Figure 4: Multiple runs validation losses for different learning rates and network topology._*</p>
+<img src="https://github.com/user-attachments/assets/275f35df-2b6e-43f7-b1c8-84b4fad8f959" width="75%"><br>
+*_Figure 4: Multiple runs validation losses for different learning rates and network topology._*
 
-<img src="https://github.com/user-attachments/assets/5bdb7d4d-efcc-4c3e-9608-8a3e1aa18b21" width="75%">
-<p align="center">*_Figure 5: Multiple runs validation losses for different hidden layer activation functions._*</p>
+<img src="https://github.com/user-attachments/assets/5bdb7d4d-efcc-4c3e-9608-8a3e1aa18b21" width="75%"><br>
+*_Figure 5: Multiple runs validation losses for different hidden layer activation functions._*
 
-<img src="https://github.com/user-attachments/assets/eb7a5b3c-aed3-46c1-9eba-bd2bb6dc3b1b" width="75%">
-<p align="center">*_Figure 6: Multiple runs validation losses with different optimization algorithms._*</p>
+<img src="https://github.com/user-attachments/assets/eb7a5b3c-aed3-46c1-9eba-bd2bb6dc3b1b" width="75%"><br>
+*_Figure 6: Multiple runs validation losses with different optimization algorithms._*
 
 
 ## Prediction (prediction.py)

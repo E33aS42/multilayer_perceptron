@@ -65,7 +65,7 @@ Training phase is customizable to explore the effects of model parameters on tra
 <img src="https://github.com/user-attachments/assets/eb7a5b3c-aed3-46c1-9eba-bd2bb6dc3b1b" width="75%"><br>
 *Figure 6: Multiple runs validation losses with different optimization algorithms and early stopping.*
 
-To access function usage: &emsp;	`./prediction.py -h`
+To access function usage: &emsp;	`./train.py -h`
 
 ## Prediction (prediction.py)
 <br />

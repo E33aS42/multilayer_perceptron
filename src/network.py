@@ -64,16 +64,18 @@ class network():
             self.beta = optim[1]
             self.beta2 = optim[2]
             print(
-                f"\n\033[35m*** Model parameters ***\033[0m\n\
-                -hidden_layers: {hidden_layers}\n\
-                -lr: {lr}\n\
-                -n_epochs: {n_epochs}\n\
-                -init: {init}\n-hidden_a: {hidden_a}\n\
-                -output_a: {output_a}\n-opti: {optim}\n\
-                -early: {early}\n\
-                -multi: {multi}\n\
-                -patience: {patience}\n\
-                -display: {display}\n")
+    f"\n\033[35m*** Model parameters ***\033[0m\n\
+    -hidden_layers: {hidden_layers}\n\
+    -lr: {lr}\n\
+    -n_epochs: {n_epochs}\n\
+    -init: {init}\n\
+    -hidden_a: {hidden_a}\n\
+    -output_a: {output_a}\n\
+    -opti: {optim}\n\
+    -early: {early}\n\
+    -multi: {multi}\n\
+    -patience: {patience}\n\
+    -display: {display}\n")
 
         except Exception as e:
             print(e)
@@ -841,4 +843,6 @@ class network():
 
         network.save_csv(y_test_pred, "y_test_pred")
         print(
-            f"\033[34m*** Test results ***\033[34m\nLog loss: {test_loss[0]:.4f}\nAccuracy: {self.accuracy_(y_test, y_test_pred):.4f}")
+            f"\n\033[34m*** Test results ***\033[34m\n\
+    Log loss: {test_loss[0]:.4f}\n\
+    Accuracy: {self.accuracy_(y_test, y_test_pred):.4f}\n")

@@ -65,10 +65,15 @@ Training phase is customizable to explore the effects of model parameters on tra
 <img src="https://github.com/user-attachments/assets/eb7a5b3c-aed3-46c1-9eba-bd2bb6dc3b1b" width="75%"><br>
 *Figure 6: Multiple runs validation losses with different optimization algorithms and early stopping.*
 
+To access function usage: &emsp;	`./prediction.py -h`
 
 ## Prediction (prediction.py)
 <br />
-Test data was normalized using the same normalization function coefficients previously applied on training and validation datasets.
+Test data was normalized using the same normalization function coefficients previously applied on training and validation datasets.<br>
+Results returns accuracy score and test loss for the current test dataset, as well as model parameters.
+
+![Screenshot from 2024-11-07 10-43-53](https://github.com/user-attachments/assets/d0f73c9f-4411-43c9-84ec-e9e50bc76841)
+
 
 Usage: &emsp;	`./prediction.py <nn_model.pkl>`
 

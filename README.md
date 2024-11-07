@@ -57,7 +57,7 @@ Training phase is customizable to explore the effects of model parameters on tra
 - multiple runs can be done consecutively.
 
 
-####Multiple runs examples:
+#### Multiple runs examples:
 
 <img src="https://github.com/user-attachments/assets/5bdb7d4d-efcc-4c3e-9608-8a3e1aa18b21" width="75%"><br>
 *Figure 4: Multiple runs validation losses for different learning rates and network topology.*

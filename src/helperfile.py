@@ -1,7 +1,7 @@
 def helper_train():
     """
 Usage:
-    training.py [-h] [-hidden LAYERS] [-epochs EPOCHS] [-init INIT] [-lr LEARNINGRATE] [-hidacti HIDACTI] [-outacti OUTACTI] [-opti OPTI] [-early EARLY] [-multi OUTACTI]
+    training.py [-h] [-hidden LAYERS] [-epochs EPOCHS] [-init INIT] [-lr LEARNINGRATE] [-hidacti HIDACTI] [-outacti OUTACTI] [-opti OPTI] [-early EARLY] [-multi MULTI]
 
 Options:
     -h, --help					Show this help message and exit.

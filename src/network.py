@@ -841,4 +841,4 @@ class network():
 
         network.save_csv(y_test_pred, "y_test_pred")
         print(
-            f"\033[34m*** Test results ***\033[34m\nLog loss: {test_loss[0]}\nAccuracy: {self.accuracy_(y_test, y_test_pred)}")
+            f"\033[34m*** Test results ***\033[34m\nLog loss: {test_loss[0]:.4f}\nAccuracy: {self.accuracy_(y_test, y_test_pred):.4f}")

@@ -45,7 +45,7 @@ Datasets were normalized using min-max (or standard) normalization based on the 
 
 <br /><br />
 ![metrics](https://github.com/user-attachments/assets/e15522cd-c27c-4db7-baee-b8d4ff5372c8)
-<p align="center">*Figure 3: Training and validation losses and accuracy for one run.*</p>
+<p align="center">*_Figure 3: Training and validation losses and accuracy for one run._*</p>
 <br /><br />
 
 Training phase is customizable to explore the effects of model parameters on training.
@@ -57,13 +57,13 @@ Training phase is customizable to explore the effects of model parameters on tra
 - multiple runs can be done consecutively.
 
 <img src="https://github.com/user-attachments/assets/275f35df-2b6e-43f7-b1c8-84b4fad8f959" width="75%">
-$\textit{Figure 4: Multiple runs validation losses for different learning rates and network topology.}$
+<p align="center">*_Figure 4: Multiple runs validation losses for different learning rates and network topology._*</p>
 
 <img src="https://github.com/user-attachments/assets/5bdb7d4d-efcc-4c3e-9608-8a3e1aa18b21" width="75%">
-Figure 5: Multiple runs validation losses for different hidden layer activation functions.
+<p align="center">*_Figure 5: Multiple runs validation losses for different hidden layer activation functions._*</p>
 
 <img src="https://github.com/user-attachments/assets/eb7a5b3c-aed3-46c1-9eba-bd2bb6dc3b1b" width="75%">
-Figure 6: Multiple runs validation losses with different optimization algorithms.
+<p align="center">*_Figure 6: Multiple runs validation losses with different optimization algorithms._*</p>
 
 
 ## Prediction (prediction.py)

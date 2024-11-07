@@ -30,7 +30,7 @@ Data cleaning:
 There were no missing feature values for the current study.
 
 <img src="https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164" width="49.5%"> <img src="https://github.com/user-attachments/assets/48418179-3325-40a4-9ce7-10e2f65ea554" width="49.5%">
-*Figure 2: Correlation heatmaps*
+*Figure 2: Features correlation heatmaps*
 
 Data split:
 - Prepared data was then split into 3 datasets: training, validation and test.
@@ -60,10 +60,10 @@ Training phase is customizable to explore the effects of model parameters on tra
 *Figure 4: Multiple runs validation losses for different learning rates and network topology.*
 
 <img src="https://github.com/user-attachments/assets/5bdb7d4d-efcc-4c3e-9608-8a3e1aa18b21" width="75%"><br>
-*Figure 5: Multiple runs validation losses for different hidden layer activation functions.*
+*Figure 5: Multiple runs validation losses for different hidden layers activation functions.*
 
 <img src="https://github.com/user-attachments/assets/eb7a5b3c-aed3-46c1-9eba-bd2bb6dc3b1b" width="75%"><br>
-*Figure 6: Multiple runs validation losses with different optimization algorithms.*
+*Figure 6: Multiple runs validation losses with different optimization algorithms and early stopping.*
 
 
 ## Prediction (prediction.py)

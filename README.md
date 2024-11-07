@@ -1,4 +1,4 @@
-# multilayer_perceptron
+# Multilayer Perceptron
 Implementation from scratch of a customizable multilayer perceptron
 
 <img src="https://github.com/user-attachments/assets/fef334da-4ab0-4ff3-8cac-82021430f463" width="900">

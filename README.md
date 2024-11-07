@@ -30,7 +30,7 @@ Data cleaning:
 There were no missing feature values for the current study.
 
 <img src="https://github.com/user-attachments/assets/9a4062c5-953e-48ce-a40a-00279926d164" width="49.5%"> <img src="https://github.com/user-attachments/assets/48418179-3325-40a4-9ce7-10e2f65ea554" width="49.5%">
-Figure 2: Correlation heatmaps
+*Figure 2: Correlation heatmaps*
 
 Data split:
 - Prepared data was then split into 3 datasets: training, validation and test.
@@ -45,7 +45,7 @@ Datasets were normalized using min-max (or standard) normalization based on the 
 
 <br /><br />
 ![metrics](https://github.com/user-attachments/assets/e15522cd-c27c-4db7-baee-b8d4ff5372c8)
-<p align="center">*_Figure 3: Training and validation losses and accuracy for one run._*</p>
+*Figure 3: Training and validation losses and accuracy for one run.*
 <br /><br />
 
 Training phase is customizable to explore the effects of model parameters on training.
@@ -57,13 +57,13 @@ Training phase is customizable to explore the effects of model parameters on tra
 - multiple runs can be done consecutively.
 
 <img src="https://github.com/user-attachments/assets/275f35df-2b6e-43f7-b1c8-84b4fad8f959" width="75%"><br>
-*_Figure 4: Multiple runs validation losses for different learning rates and network topology._*
+*Figure 4: Multiple runs validation losses for different learning rates and network topology.*
 
 <img src="https://github.com/user-attachments/assets/5bdb7d4d-efcc-4c3e-9608-8a3e1aa18b21" width="75%"><br>
-*_Figure 5: Multiple runs validation losses for different hidden layer activation functions._*
+*Figure 5: Multiple runs validation losses for different hidden layer activation functions.*
 
 <img src="https://github.com/user-attachments/assets/eb7a5b3c-aed3-46c1-9eba-bd2bb6dc3b1b" width="75%"><br>
-*_Figure 6: Multiple runs validation losses with different optimization algorithms._*
+*Figure 6: Multiple runs validation losses with different optimization algorithms.*
 
 
 ## Prediction (prediction.py)

@@ -48,12 +48,12 @@ if __name__ == "__main__":
     display = "no"
 
     # If multiple trainings:
-    cases = [((32, 16), (16, 8), (32, 16, 8)), (0.1, 0.4), ('sigmoid',), ('softmax1',), ('none',)]
+    cases = [((32, 16), (16, 8), (32, 16, 8)), (0.001, 0.005), ('relu',), ('sigmoid',), ('none',)]
     # cases = [((16, 8),), (0.2,), ('relu',), ('softmax',), (('none',), ('mom',))]
-    cases = [((16, 8),), (0.02,0.1), ('relu',), ('softmax',), (('mom', 0.9, 0.999), ('rms', 0.9, 0.999), ('adam', 0.9, 0.999))]
+    cases = [((16, 8),), (0.02,), ('relu',), ('softmax',), ('none', ('mom', 0.9, 0.999), ('rms', 0.9, 0.999), ('adam', 0.9, 0.999))]
     # cases = "[((16, 8),), (0.02,), ('sigmoid',), ('softmax1',), ('none', ('adam',0.9, 0.999), ('adam', 0.1,0.999))]"
-    # cases = [((16, 8),), (0.1,), ('sigmoid', 'tanh', 'relu', 'leaky'), ('sigmoid',), (('none',),)]
-    # cases = [((32, 16),), (0.3,), ('sigmoid',), ('sigmoid', 'softmax','softmax1'), (('none',),)]
+    # cases = [((16, 8),), (0.1,), ('sigmoid', 'tanh', 'relu', 'leaky'), ('softmax1',), (('none',),)]
+    # cases = [((16, 8),), (0.1,), ('relu',), ('sigmoid', 'softmax','softmax1'), (('none',),)]
 
     argv = sys.argv
     parse = parser()

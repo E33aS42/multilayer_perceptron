@@ -13,7 +13,7 @@ Options:
     -outacti OUTACTI				Output layer activation function (sigmoid, softmax1 or softmax).
     -opti OPTI					Optimization model (mom, rms or adam).
     -early                      Set early stopping (yes or no) with patience as second optional prm (default is 10)
-    -multi                      ask for multiple trainings
+    -multi                      ask for multiple trainings (yes or no)
     -display                    Display training at each iteration (yes or no)
     """
     pass

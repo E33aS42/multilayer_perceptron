@@ -46,6 +46,14 @@ Datasets were normalized using min-max (or standard) normalization based on the 
 ![metrics](https://github.com/user-attachments/assets/e15522cd-c27c-4db7-baee-b8d4ff5372c8)
 <br /><br />
 
+Training phase is customizable to explore the effects of model parameters on training.
+. hidden layer available activation functions: sigmoid, tanh, relu or leaky relu.
+. output layer available activation functions: sigmoid or softmax.
+. weights initializations: random or Xavier.
+. optimization algorithms: momentum, RMSprop or Adam.
+. early stopping with configurable patience.
+. multiple runs can be done consecutively.
+
 
 
 ## Prediction (prediction.py)

@@ -60,13 +60,13 @@ Training phase is customizable to explore the effects of model parameters on tra
 #### Multiple runs examples:
 
 <img src="https://github.com/user-attachments/assets/5bdb7d4d-efcc-4c3e-9608-8a3e1aa18b21" width="75%"><br>
-*Figure 4: Multiple runs validation losses for different learning rates and network topology.*
+*Figure 4: Validation losses for different learning rates and network topology.*
 
 <img src="https://github.com/user-attachments/assets/275f35df-2b6e-43f7-b1c8-84b4fad8f959" width="75%"><br>
-*Figure 5: Multiple runs validation losses for different hidden layers activation functions.*
+*Figure 5: Validation losses for different hidden layers activation functions.*
 
 <img src="https://github.com/user-attachments/assets/eb7a5b3c-aed3-46c1-9eba-bd2bb6dc3b1b" width="75%"><br>
-*Figure 6: Multiple runs validation losses with different optimization algorithms and early stopping.*
+*Figure 6: Validation losses with different optimization algorithms and early stopping.*
 
 To access function usage: &emsp;	`./train.py -h`
 

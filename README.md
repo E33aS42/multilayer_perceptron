@@ -47,12 +47,18 @@ Datasets were normalized using min-max (or standard) normalization based on the 
 <br /><br />
 
 Training phase is customizable to explore the effects of model parameters on training.
-. hidden layer available activation functions: sigmoid, tanh, relu or leaky relu.
-. output layer available activation functions: sigmoid or softmax.
-. weights initializations: random or Xavier.
-. optimization algorithms: momentum, RMSprop or Adam.
-. early stopping with configurable patience.
-. multiple runs can be done consecutively.
+- hidden layer available activation functions: sigmoid, tanh, relu or leaky relu.
+- output layer available activation functions: sigmoid or softmax.
+- weights initializations: random or Xavier.
+- optimization algorithms: momentum, RMSprop or Adam.
+- early stopping with configurable patience.
+- multiple runs can be done consecutively.
+
+![hid_acti](https://github.com/user-attachments/assets/275f35df-2b6e-43f7-b1c8-84b4fad8f959)
+
+![hidden_lr](https://github.com/user-attachments/assets/5bdb7d4d-efcc-4c3e-9608-8a3e1aa18b21)
+
+![opti](https://github.com/user-attachments/assets/eb7a5b3c-aed3-46c1-9eba-bd2bb6dc3b1b)
 
 
 

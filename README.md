@@ -37,7 +37,7 @@ Data split:
 
 Usage: &emsp;	`./split.py <data.csv> [column_number_to_remove...]`
 
-
+<br />
 
 ## Training (train.py)
 <br />
@@ -67,12 +67,13 @@ Training phase is customizable to explore the effects of model parameters on tra
 
 To access function usage: &emsp;	`./train.py -h`
 
-
+<br />
 
 ## Prediction (prediction.py)
 <br />
 Test data was normalized using the same normalization function coefficients previously applied on training and validation datasets.<br>
-Results returns accuracy score and test loss for the current test dataset, as well as model parameters.<br />
+Results returns accuracy score and test loss for the current test dataset, as well as model parameters.
+<br />
 
 ![Screenshot from 2024-11-07 10-43-53](https://github.com/user-attachments/assets/d0f73c9f-4411-43c9-84ec-e9e50bc76841)
 
